@@ -1,9 +1,9 @@
-# terraform {
-#   cloud {
-#     organization = "Transible"
+terraform {
+  cloud {
+    organization = "Transible"
 
-#     workspaces {
-#       name = "transible"
-#     }
-#   }
-# }
+    workspaces {
+      name = "transible"
+    }
+  }
+}
